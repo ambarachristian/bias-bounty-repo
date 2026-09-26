@@ -1,6 +1,6 @@
 # Bias Bounty Mapping Equity Challenge — coverage-gap reconstruction
 
-Public leaderboard score **0.00000301** (Yanard).
+Public leaderboard score **0.000000000** (Yanard, submission `63DPbbxz`): an exact reproduction of the reference.
 
 A reconstruction of the organisers' per-tract coverage-gap score for the
 [Bias Bounty Mapping Equity Challenge](https://zindi.world/competitions/bias-bounty-mapping-equity-challenge),
@@ -9,6 +9,8 @@ run by Humane Intelligence and Reliabl with Zindi.
 Everything here computes from the challenge's public data only. No machine learning, no outside
 sources, no paid APIs. The scored pipeline is DuckDB SQL; an independent reimplementation in
 Python/Shapely is included as a cross-check and agrees with it to 23 significant figures.
+
+The last step to an exact match is running the road step on **ARM** arithmetic, as the organisers did. `scripts/arm64_roads.sh` does that on an ordinary x86 machine with a user-mode QEMU and an arm64 DuckDB: no root, no Docker, nine minutes. See DOCUMENTATION.md §13, which also credits wangwu (discussion 34972) and Pricilegangbe (34992), who identified the cause first.
 
 ## What's here
 
@@ -20,7 +22,8 @@ Python/Shapely is included as a cross-check and agrees with it to 23 significant
 | `sql/` | The scored pipeline. `00`–`08` build and verify; `11` emits the submission; `09`, `10`, `20`–`32` are the sensitivity and variant sweeps. |
 | `python/` | Independent reimplementation in Shapely/GEOS + pyproj + pyarrow. |
 | `scripts/` | Runners. |
-| `submissions/submission.csv` | The scoring submission. |
+| `submissions/submission.csv` | The earlier x86 submission (0.00000301). |
+| `submissions/candidate-arm64.csv` | The exact-reproduction submission (public 0). |
 
 ## The task
 
@@ -47,7 +50,11 @@ South-Central Texas and 21% of Eastern Oklahoma.
 scripts/fetch.sh <region...>      # ~4 GB from the public bucket, resumable, no credentials
 scripts/run_all.sh                # build, verify, emit — about 15 minutes
 python/run_all.sh                 # the independent Python cross-check
+scripts/arm64_roads.sh northern-ca eastern-ok maricopa-az south-central-tx   # road step under emulated arm64
+scripts/arm64_rescore.sh          # swap in ARM road lengths → submissions/candidate-arm64.csv (public 0)
 ```
+
+`arm64_roads.sh` expects `~/arm64/` to hold a static `qemu-aarch64` (from Debian's `qemu-user-static` .deb, extracted with `ar x`), an arm64 rootfs (`skopeo copy --override-arch arm64 docker://debian:bookworm-slim dir:img`, layers untarred into `rootfs/`), and the DuckDB 1.5.4 `linux-arm64` CLI.
 
 Every SQL step asserts its own invariants and aborts on failure: projected geometries finite, the
 axis-order test segment correct to the metre, every point feature assigned exactly once, no NaN

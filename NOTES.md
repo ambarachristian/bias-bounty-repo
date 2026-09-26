@@ -1043,3 +1043,28 @@ The four-mean oracle remains valid for *refuting* variants (a variant that puts 
 far outside the interval is definitely wrong, as it killed every category hypothesis) but is
 NOT valid for *selecting* them. Necessary, not sufficient. Only the leaderboard, read under MAE,
 selects.
+
+# RESOLVED 2026-09-26 — the residual is ARM floating-point arithmetic. Public score 0.
+
+Found in discussion 34992 (and wangwu, 34972): the organisers' reference was computed on ARM, where the
+compiler contracts a*b+c into one fused multiply-add. Boundary-coincident Overture highway vertices land
+~1e-11 m inside or outside a tract depending on that last rounding, which decides whether the clipped piece
+counts. Every x86 implementation of the documented recipe lands on exactly 0.00000301 — the plateau shared
+by 20+ accounts. Our five refuted hypotheses above (engine, GEOS version, PROJ, clip order, buildings) were
+all correctly refuted; the variable was the CPU, which no offline experiment on one x86 host could vary.
+
+Reproduction, no root needed (`scripts/arm64_roads.sh`, then `scripts/arm64_rescore.sh`):
+- static qemu-aarch64 7.2 extracted from Debian's qemu-user-static .deb (`ar x`, no install);
+- arm64 Debian bookworm-slim rootfs via `skopeo copy --override-arch arm64 ... dir:` and untarring layers;
+- DuckDB **1.5.4** linux-arm64 CLI + its spatial extension, run as `qemu-aarch64-static -L rootfs duckdb`;
+- only sql/01 (tracts) + sql/03 (road_len) run under ARM (~9 min for all four regions); everything else
+  reuses db/*.duckdb unchanged (verified: the unchanged export is byte-identical to candidate-poi-fixed.csv).
+
+Fingerprint, all matching the published one: TIGER max diff 2.1e-8 m (invariant); Overture moves in
+1,651 tracts, max 291.785 m; 21 composite rows change at 6dp; transport sum 1048.2997, inside the
+organiser window [1048.2955, 1048.3049] for the first time; undefined counts 218/253/869/1704 preserved.
+A single projected point already shows it: y = …582113 on ARM vs …582115 on x86.
+
+Submitted `63DPbbxz` (submissions/candidate-arm64.csv): **public 0.000000000**, rank 20/164 (20-way tie at 0).
+Private selection set via `PATCH /v1/competitions/<slug>/submissions/<id>` {"chosen": true|false}:
+63DPbbxz (0.0) + Qa9uN64i (3.01e-6, x86 hedge) chosen; 9iCK3XSC deselected.

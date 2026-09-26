@@ -2,6 +2,12 @@
 
 **Bias Bounty Mapping Equity Challenge — Best Bias Discovery entry**
 
+Entry submission `63DPbbxz` (public score 0.000000000, exact reproduction of the reference). Every
+number below is recomputed from the challenge data alone; no additional sources are used. The
+final road correction that took the score to 0 (DOCUMENTATION.md §13) changed only
+`transport_gap` and `coverage_gap_score` in 21 tracts. It does not touch a single facility count,
+so this finding is identical under both builds.
+
 ## The finding
 
 Across all four study regions, Overture Maps is missing **51.9% of the fire stations that exist
@@ -82,6 +88,32 @@ Tribal Eastern Oklahoma holds 987 of the region's 1,139 fire stations — the gr
 emergency response capacity in the region sits on tribal land — and Overture knows about 467 of
 them. The infrastructure exists. The record of it does not.
 
+### Named tracts
+
+Across the study, **163 tribal tracts contain 274 real fire stations and show none** on the open
+map. Twenty-nine of them hold three or more. The worst, all fully inside Oklahoma Tribal
+Statistical Areas (`tribal_pct` = 1.0):
+
+| tract (GEOID) | county | tribal area | USGS stations | in Overture |
+|---|---|---|---|---|
+| 40061279300 | Haskell | Choctaw OTSA | 6 | 0 |
+| 40071001200 | Kay | Kaw OTSA | 6 | 0 |
+| 40089098900 | McCurtain | Choctaw OTSA | 6 | 0 |
+| 40023967300 | Choctaw | Choctaw OTSA | 5 | 0 |
+| 40079040700 | Le Flore | Choctaw OTSA | 5 | 0 |
+| 40085094300 | Love | Chickasaw OTSA | 5 | 0 |
+| 40001376800 | Adair | Cherokee OTSA | 4 | 0 |
+| 40029388200 | Coal | Choctaw OTSA | 4 | 0 |
+| 40049681900 | Garvin | Chickasaw OTSA | 4 | 0 |
+| 40051000702 | Grady | Chickasaw OTSA | 4 | 0 |
+| 40055967100 | Greer | Kiowa-Comanche-Apache-Fort Sill Apache OTSA | 4 | 0 |
+| 40055967200 | Greer | Kiowa-Comanche-Apache-Fort Sill Apache OTSA | 4 | 0 |
+
+A routing engine built on this map, asked for the nearest fire station to an address in any of
+these tracts, cannot answer with the six stations standing inside it. Choctaw Nation territory
+alone accounts for six of the twelve. (County names follow from the county FIPS code, characters 3–5 of each
+GEOID; tribal area names and percentages are the challenge's own tribal stratum table.)
+
 The mechanism is almost certainly the ordinary one: Overture inherits heavily from OpenStreetMap
 and commercial point-of-interest feeds, both of which are built by contributors mapping where
 they live, work and sell. Tribal areas are rural, under-surveyed, and commercially uninteresting
@@ -110,6 +142,11 @@ We kept this behaviour because it is the only reading that reproduces the organi
 undefined-tract counts exactly in all four regions, so the reference score presumably contains
 it too. But it means a 1.0 on a boundary-road tract may be an attribution artifact rather than a
 mapping failure.
+
+We have since measured how fragile those boundary-road tracts are (DOCUMENTATION.md §13): the
+same roads flip in or out of a tract depending on the processor's floating-point rounding, and
+1,427 of the 1,651 tracts that move on ARM hardware are in South-Central Texas. Road-gap values on
+boundary-coincident tracts should be read as the least stable part of the whole score.
 
 This caveat does not touch the fire-station finding. Point-in-polygon assignment of facilities
 has no boundary-sharing problem, and the counts above are raw station counts, not derived gap
@@ -155,5 +192,6 @@ reporting alongside the composite score in future bias scorecards.
 *Reproducible from the challenge data alone. Fire-station counts are raw USGS National Map
 structures against Overture places with `categories.primary = fire_department`, assigned to
 tracts by point-in-polygon, each feature assigned exactly once. Tribal status is `tribal_any`
-from the challenge's own tribal stratum table. Query in `sql/13_bias_discovery.sql`;
-full method in `DOCUMENTATION.md`.*
+from the challenge's own tribal stratum table. Query in `sql/13_bias_discovery.sql` (headline
+figures) and `sql/14_bias_named_tracts.sql` (the named-tract table); full method in
+`DOCUMENTATION.md`. Code: https://github.com/ambarachristian/bias-bounty-repo*

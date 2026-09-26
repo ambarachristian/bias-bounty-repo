@@ -2,11 +2,16 @@
 
 **Bias Bounty Mapping Equity Challenge — methodology writeup**
 
-Public leaderboard score **0.00000301** — under the metric the scorer actually applies, which is
-mean absolute error rather than the RMSE the competition page states (§11). Everything below
-runs in DuckDB SQL over the challenge data only. No machine learning, no outside sources, no paid APIs. The whole pipeline rebuilds
-from an empty directory with `scripts/run_all.sh` in roughly fifteen minutes, and is reproduced
-independently in Python/Shapely under `python/` (§7.4).
+Entry submission **`63DPbbxz`** — public leaderboard score **0.000000000**, an exact reproduction of
+the reference (§13). The metric the scorer actually applies is mean absolute error, not the RMSE
+the competition page states (§11). Everything below runs in DuckDB SQL over the challenge data
+only. No machine learning, no outside sources, no paid APIs. The whole pipeline rebuilds from an
+empty directory with `scripts/run_all.sh` in roughly fifteen minutes, is reproduced independently
+in Python/Shapely under `python/` (§7.4), and reaches the exact reference when its road step is
+re-run under emulated ARM (`scripts/arm64_roads.sh`, nine minutes, no root, no Docker — §13).
+
+§7–§12 are the investigation as it happened, including the hypotheses we refuted and one we got
+wrong. They are kept because the refutations are what made the final answer checkable.
 
 ---
 
@@ -251,6 +256,9 @@ not in the geometry and not a property of the toolchain.
 
 ### 7.5 What remains
 
+*Superseded by §13: the residual was the processor's floating-point arithmetic. The refutations
+below all stand; the variable they could not reach was the CPU.*
+
 Nothing in the computation survives. Excluded by arithmetic rather than judgement: every
 facility-category question, the CBP threshold, the POI-half rule, the divisor, the length metric,
 the clip order, the projection used for point assignment, float precision, the building-assignment
@@ -367,6 +375,10 @@ scripts/run_region.sh <region>      # sql/01..07 → submissions/<region>-submis
 ./bin/duckdb < sql/08_combine_verify.sql    # row counts, ranges, blanks
 ./bin/duckdb < sql/11_zindi_format.sql      # 17-column submission in Zindi's exact schema
 sql/09_sensitivity.sql, sql/10_road_dedupe_probe.sql   # the sensitivity figures quoted above
+
+# exact reference (public 0): re-run only the road step under emulated linux/arm64 — see §13
+scripts/arm64_roads.sh northern-ca eastern-ok maricopa-az south-central-tx
+scripts/arm64_rescore.sh            # → submissions/candidate-arm64.csv
 ```
 
 Every step asserts its own invariants with `error()` under `.bail on`: projected geometries
@@ -442,7 +454,9 @@ should be checked; if the intended metric is MAE, the page should be corrected. 
 participants reasoning from the published metric — as we did for most of this work — will draw
 wrong conclusions about which hypotheses are even possible.
 
-## 12. What we could not explain
+## 12. What we could not explain (as of 2026-09-20)
+
+*Resolved in §13. Left as written, because an honest record of a dead end is part of the method.*
 
 Three of the four components agree with the organisers' published means to within their rounding
 interval. `transport_gap` does not: it sits +1.28×10⁻⁶ high and is the entire remaining
@@ -463,3 +477,63 @@ published means to six decimals. Whatever remains is not visible from the publis
 Stating that plainly seems more useful than fitting a scale factor to close it. We tested two
 such factors and discarded both: they have no mechanism, and a correction tuned to the public
 30% has no reason to hold on the private 70%.
+
+## 13. Resolution: the reference was computed on ARM
+
+**Credit first.** The processor arithmetic was identified publicly by **wangwu** (discussion 34972,
+23 September) and measured in detail by **Pricilegangbe** (34992, 24 September). We had been
+asking every question except the one that mattered — §12 lists fifteen refuted hypotheses, all
+correctly refuted, none of which could vary the machine the reference ran on. What follows is our
+independent reproduction and three things we add to it.
+
+**The mechanism.** On ARM, compilers contract `a*b + c` into one fused multiply-add with a single
+rounding; x86 rounds twice. Many Overture highways still carry the coordinates of their TIGER
+import, and TIGER tract boundaries follow the same lines, so thousands of kilometres of road lie
+exactly on a tract edge. After projection to EPSG:5070, such a vertex lands ~10⁻¹¹ m inside or
+outside the polygon depending on that last rounding — and that decides whether the clipped piece
+counts. Every x86 implementation of the documented recipe lands on exactly 0.00000301, which is
+why more than twenty accounts shared that score to nine digits.
+
+**You can see it in one point.** `ST_Transform(ST_Point(-97.5, 35.4), 'EPSG:4326', 'EPSG:5070',
+always_xy := true)` returns `y = 1372629.6345582113` under DuckDB 1.5.4 on arm64 and
+`1372629.6345582115` on x86. One unit in the last place.
+
+**Reproducing it on an ordinary x86 machine, without root or Docker** (`scripts/arm64_roads.sh`).
+The published route uses `docker run --platform linux/arm64`, which needs the host's binfmt
+handler registered as root. Ours needs neither:
+
+1. A statically linked `qemu-aarch64` user-mode emulator, extracted from Debian's
+   `qemu-user-static` 7.2 package with `ar x` — nothing installed.
+2. An arm64 root filesystem for the dynamic loader: `skopeo copy --override-arch arm64
+   docker://debian:bookworm-slim dir:img`, then untar the layers. No container is ever run.
+3. The official DuckDB **1.5.4** `linux-arm64` CLI and its spatial extension, executed as
+   `qemu-aarch64-static -L rootfs ./duckdb`.
+
+Only `sql/01` (tracts) and `sql/03` (road lengths) run under emulation — nine minutes for all four
+regions on a four-core machine with 3 GB of RAM. `scripts/arm64_rescore.sh` swaps the resulting
+`road_len` into *copies* of the region databases and re-runs `sql/06` and the export.
+
+**Isolation, proven rather than assumed.** Before swapping, the unchanged databases re-export
+byte-identical to our previous best file. After swapping, exactly two columns differ —
+`coverage_gap_score` and `transport_gap`, in 21 rows. Buildings, POIs, every flag, the order and
+the header are untouched. So the whole move from 0.00000301 to 0 is attributable to the road step
+and nothing else.
+
+**The fingerprint, matching the published one independently:**
+
+| check | our arm64 run |
+|---|---|
+| TIGER length, max per-tract change | 2.1×10⁻⁸ m — invariant (roads and tract edges share vertices, so they move together) |
+| Overture length, tracts changed | 1,651, maximum 291.785 m |
+| rounded composite scores changed | 21 |
+| transport-undefined counts | 218 / 253 / 869 / 1704 — unchanged, matching the README |
+| transport column sum | 1048.2997 — inside the organisers' window [1048.2955, 1048.3049] for the first time (x86: 1048.3122) |
+| public score | **0.000000000** (`63DPbbxz`) |
+
+**What this means for anyone scoring equity from geometry.** A coverage measure whose tract-level
+value can flip on the processor it runs on is not a property of the map alone. The flips are
+concentrated where roads run along tract boundaries — overwhelmingly in South-Central Texas here
+(1,427 of 1,651 moved tracts). For published scores this is harmless at six decimals in 9,358 of
+9,379 tracts, but a reference implementation should either pin its platform or snap boundary-
+coincident segments before clipping, and say which. We recommend the organisers state the
+platform alongside the recipe.
