@@ -191,7 +191,7 @@ full precision; max delta vs the scored file is 5.0e-7. Expect marginal gain onl
 | Summer Heat | 0.59x |
 | High Hazard + High Vulnerability | 1.21x |
 
-**Our scorecard is identical to rank-1 (mrSharafi) on all six indicators visible in their
+**Our scorecard is identical to the rank-1 entry's on all six indicators visible in their
 rubric** (1.58 / 0.99 / 1.45 / 1.75 / 0.59 / 1.21). Same measure, independently reconstructed.
 Leaderboard "0" entries are near-exact scores displayed as zero, i.e. AHEAD of us, not failures.
 
@@ -1046,7 +1046,7 @@ selects.
 
 # RESOLVED 2026-09-26 — the residual is ARM floating-point arithmetic. Public score 0.
 
-Found in discussion 34992 (and wangwu, 34972): the organisers' reference was computed on ARM, where the
+First raised publicly on the challenge forum: the organisers' reference was computed on ARM, where the
 compiler contracts a*b+c into one fused multiply-add. Boundary-coincident Overture highway vertices land
 ~1e-11 m inside or outside a tract depending on that last rounding, which decides whether the clipped piece
 counts. Every x86 implementation of the documented recipe lands on exactly 0.00000301 — the plateau shared

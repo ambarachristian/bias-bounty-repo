@@ -10,14 +10,15 @@ Everything here computes from the challenge's public data only. No machine learn
 sources, no paid APIs. The scored pipeline is DuckDB SQL; an independent reimplementation in
 Python/Shapely is included as a cross-check and agrees with it to 23 significant figures.
 
-The last step to an exact match is running the road step on **ARM** arithmetic, as the organisers did. `scripts/arm64_roads.sh` does that on an ordinary x86 machine with a user-mode QEMU and an arm64 DuckDB: no root, no Docker, nine minutes. See DOCUMENTATION.md §13, which also credits wangwu (discussion 34972) and Pricilegangbe (34992), who identified the cause first.
+The last step to an exact match is running the road step on **ARM** arithmetic, as the organisers did. `scripts/arm64_roads.sh` does that on an ordinary x86 machine with a user-mode QEMU and an arm64 DuckDB: no root, no Docker, nine minutes. See DOCUMENTATION.md §13; the cause was first raised publicly on the challenge forum.
 
 ## What's here
 
 | file | what it is |
 |---|---|
 | **[DOCUMENTATION.md](DOCUMENTATION.md)** | Methodology writeup — sources, per-component computation, edge cases, every alternative tested and why it was rejected. Submitted for **Best Documentation**. |
-| **[BIAS_DISCOVERY.md](BIAS_DISCOVERY.md)** | Half the fire stations on tribal land are missing from Overture. Submitted for **Best Bias Discovery**. |
+| **[BIAS_DISCOVERY.md](BIAS_DISCOVERY.md)** | Half the fire stations on tribal land can't be found as fire stations in Overture. Submitted for **Best Bias Discovery**. |
+| `results/` | Output of the fire-station mislabel check (`mislabel_check.md`, `mislabel_tracts.csv`), made by `scripts/tract_mislabel_check.py`. |
 | [NOTES.md](NOTES.md) | The full investigation log, including the dead ends. Kept because the refutations are the evidence. |
 | `sql/` | The scored pipeline. `00`–`08` build and verify; `11` emits the submission; `09`, `10`, `20`–`32` are the sensitivity and variant sweeps. |
 | `python/` | Independent reimplementation in Shapely/GEOS + pyproj + pyarrow. |
@@ -45,6 +46,10 @@ rather than scored zero. That affects 55% of Maricopa tracts, 37% of Northern Ca
 South-Central Texas and 21% of Eastern Oklahoma.
 
 ## Reproducing
+
+> **Data availability (read first).** On 25 September 2026 the organisers removed the TIGER/Line roads, Microsoft building footprints, HIFLD facilities and CBP establishments from every region of the challenge bucket. Since then `scripts/fetch.sh` stops with an error at the first removed file, and `scripts/run_all.sh` calls it first, so both fail. A full rebuild needs a copy of the bucket taken before that date, laid out in `data/` the way `fetch.sh` writes it. With that copy in place, skip the download and run:
+> `for r in northern-ca maricopa-az eastern-ok south-central-tx; do scripts/run_region.sh $r 0; done && ./bin/duckdb -markdown < sql/08_combine_verify.sql`
+> The Overture layers, tract boundaries, strata tables and sample submissions are still published. Everything below was run on the pre-removal data, and the scored file was produced at tag `v1.0-public0` (commit 35c2f9e).
 
 ```bash
 scripts/fetch.sh <region...>      # ~4 GB from the public bucket, resumable, no credentials

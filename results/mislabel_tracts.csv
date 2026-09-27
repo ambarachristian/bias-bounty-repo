@@ -1,0 +1,851 @@
+region,GEOID,tribal_any,tribal_area,kind,name,primary,sources
+maricopa-az,04001944902,True,Navajo Nation Reservation,,,,
+maricopa-az,04001945100,True,Navajo Nation Reservation,,,,
+maricopa-az,04003000600,False,,,,,
+maricopa-az,04003000700,False,,,,,
+maricopa-az,04003001100,False,,strict,Naco Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04003001302,False,,,,,
+maricopa-az,04003001502,False,,,,,
+maricopa-az,04003001900,False,,strict,Fry Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04005000700,False,,,,,
+maricopa-az,04005000800,False,,,,,
+maricopa-az,04005000901,False,,,,,
+maricopa-az,04007000400,False,,,,,
+maricopa-az,04007000800,False,,strict,Tonto Basin Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04007001000,False,,,,,
+maricopa-az,04012020101,False,,,,,
+maricopa-az,04012020102,False,,,,,
+maricopa-az,04013040528,False,,,,,
+maricopa-az,04013050604,False,,,,,
+maricopa-az,04013050612,False,,,,,
+maricopa-az,04013061010,False,,strict,Rural Metro Fire Department Station 837,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04013061021,False,,,,,
+maricopa-az,04013061031,False,,,,,
+maricopa-az,04013061039,False,,,,,
+maricopa-az,04013061044,False,,,,,
+maricopa-az,04013061057,False,,,,,
+maricopa-az,04013071600,False,,,,,
+maricopa-az,04013112524,False,,,,,
+maricopa-az,04013116610,False,,strict,Laveen Fire Department,professional_services,Overture+Overture-signals+meta
+maricopa-az,04013216859,False,,,,,
+maricopa-az,04013217001,False,,,,,
+maricopa-az,04013320002,False,,strict,I'tom Hiapsi,central_government_office,Overture+Overture-signals+meta
+maricopa-az,04013420104,False,,strict,Mesa Fire Department Station 213,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04013422307,False,,loose,Metro Fire+Security,fire_protection_service,Overture+meta
+maricopa-az,04013422509,False,,strict,Gilbert Fire Station 3,fire_protection_service,Overture+meta
+maricopa-az,04013422647,False,,,,,
+maricopa-az,04013522801,False,,strict,Mesa Fire Department Station 215,fire_protection_service,Overture+meta
+maricopa-az,04013523008,False,,,,,
+maricopa-az,04013610001,False,,strict,Fire Station 146,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04013610002,False,,,,,
+maricopa-az,04013610202,False,,,,,
+maricopa-az,04013612800,False,,,,,
+maricopa-az,04013723306,False,,,,,
+maricopa-az,04013723311,False,,,,,
+maricopa-az,04013810500,False,,,,,
+maricopa-az,04013816904,False,,,,,
+maricopa-az,04013817400,False,,,,,
+maricopa-az,04013941000,True,Gila River Indian Reservation,,,,
+maricopa-az,04013981000,False,,,,,
+maricopa-az,04017940015,True,Navajo Nation Reservation,,,,
+maricopa-az,04017940100,True,Fort Apache Reservation,strict,CBQ Fire Station,fire_protection_service,Overture+meta
+maricopa-az,04017960200,False,,,,,
+maricopa-az,04017961702,False,,,,,
+maricopa-az,04017962502,False,,strict,Pinetop Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04017963300,False,,strict,Snowflake Fire Department,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04017964801,False,,,,,
+maricopa-az,04019002300,False,,,,,
+maricopa-az,04019003704,False,,,,,
+maricopa-az,04019004052,False,,strict,Mt Lemmon Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04019004131,False,,loose,ServiceMaster Fire & Water Recovery by Disaster Experts,damage_restoration,Overture+Overture-signals+meta
+maricopa-az,04019004326,False,,,,,
+maricopa-az,04019004333,False,,,,,
+maricopa-az,04019004424,False,,strict,Three Points Fire District Station 302,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04019004431,False,,,,,
+maricopa-az,04019004433,False,,,,,
+maricopa-az,04019004632,False,,strict,mountain Vista fire Department. station 620,fire_protection_service,Overture+meta
+maricopa-az,04019004635,False,,,,,
+maricopa-az,04019004642,False,,loose,Fork and Fire Smokehouse and Taproom,barbecue_restaurant,Overture+Overture-signals+meta
+maricopa-az,04019004642,False,,loose,Fork & Fire,food_truck,Overture+meta
+maricopa-az,04019004715,False,,strict,Golder Ranch Fire District,health_and_medical,BrightQuery+Overture+Overture-signals
+maricopa-az,04019005200,False,,strict,Ajo Fire Department,fire_protection_service,Overture+meta
+maricopa-az,04019005200,False,,strict,Why Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04019940800,True,Tohono O'odham Nation Reservation,,,,
+maricopa-az,04021000201,False,,strict,Queen Valley Fire District,fire_protection_service,Overture+meta
+maricopa-az,04021000311,False,,strict,Apache Junction Fire District 262,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04021000603,False,,,,,
+maricopa-az,04021000604,False,,,,,
+maricopa-az,04021001200,False,,strict,Regional Fire & Rescue Department,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04021001308,False,,,,,
+maricopa-az,04021001712,False,,strict,Station 572 Maricopa Fire Department,fire_protection_service,Overture+meta
+maricopa-az,04021002300,False,,strict,Kearny Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04021002300,False,,strict,Firehouse saloon bar and venue,bar,Overture+Overture-signals+meta
+maricopa-az,04021002400,True,San Carlos Reservation,strict,Mammoth Fire & Medical District,fire_protection_service,Overture+meta
+maricopa-az,04021941402,True,Tohono O'odham Nation Reservation,,,,
+maricopa-az,04023966101,False,,strict,Tubac Fire District,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04023966301,False,,strict,Nogales Suburban Fire District,fire_protection_service,Overture+meta
+maricopa-az,04025000209,False,,loose,Bonn-Fire,american_restaurant,Foursquare+Overture
+maricopa-az,04025000405,False,,,,,
+maricopa-az,04025000608,False,,,,,
+maricopa-az,04025000804,False,,,,,
+maricopa-az,04025000902,False,,,,,
+maricopa-az,04025001002,False,,loose,Eric Marsh Foundation For Wildland Firefighters,charity_organization,BrightQuery+Overture
+maricopa-az,04025001201,False,,strict,Williamson Valley-Bagdad Fire District 91,fire_protection_service,Overture+Overture-signals+meta
+maricopa-az,04025001601,True,Yavapai-Apache Nation Reservation,loose,Tried by Fire Ceramics,,Overture+meta
+maricopa-az,04025001701,False,,,,,
+maricopa-az,04025001901,True,Yavapai-Apache Nation Reservation,,,,
+northern-ca,06007001602,False,,loose,The Fire Place - Chimney Services,chimney_sweep,Microsoft+Overture+Overture-signals
+northern-ca,06007001602,False,,strict,CAL FIRE Station 23,fire_protection_service,Overture+meta
+northern-ca,06007001703,False,,,,,
+northern-ca,06007002200,False,,,,,
+northern-ca,06007002300,False,,,,,
+northern-ca,06007002402,False,Enterprise Rancheria,strict,Berry Creek Volunteer Fire Company,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06007002402,False,Enterprise Rancheria,strict,Clipper Mills Fire Station,fire_protection_service,Overture+meta
+northern-ca,06007002602,False,,,,,
+northern-ca,06007002800,False,,,,,
+northern-ca,06007003100,True,Berry Creek Off-Reservation Trust Land,,,,
+northern-ca,06007003200,False,,,,,
+northern-ca,06007003501,False,,,,,
+northern-ca,06007003502,False,,,,,
+northern-ca,06011000302,False,Cortina Indian Rancheria,strict,Williams Fire Protection District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06017030601,False,,strict,Cool Fire Station,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06017030604,False,,,,,
+northern-ca,06017030901,False,,,,,
+northern-ca,06017030902,True,Shingle Springs Rancheria,,,,
+northern-ca,06023001200,False,,,,,
+northern-ca,06023010902,False,,,,,
+northern-ca,06023940000,True,Hoopa Valley Reservation,strict,Hoopa Fire Department and Office of Emergency Services,central_government_office,Overture+Overture-signals+meta
+northern-ca,06033000300,True,Hopland Rancheria,,,,
+northern-ca,06033000602,False,Sulphur Bank Rancheria,,,,
+northern-ca,06033000704,False,,,,,
+northern-ca,06033000801,False,,,,,
+northern-ca,06033000901,False,,,,,
+northern-ca,06033000902,False,,,,,
+northern-ca,06033001101,False,,loose,Fire Wise Landscaping,landscaping,Overture+Overture-signals+meta
+northern-ca,06035040100,False,,,,,
+northern-ca,06035040400,False,,strict,Litchfield Town Standish Litchfield Fire Department,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06035040400,False,,loose,Kelly Fire Defense & Land Clearing,fire_protection_service,Overture+meta
+northern-ca,06045010100,True,Round Valley Off-Reservation Trust Land,,,,
+northern-ca,06045010601,False,Sherwood Valley Off-Reservation Trust Land,loose,CAL FIRE Mendocino Unit,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06045010601,False,Sherwood Valley Off-Reservation Trust Land,strict,State of California Fire Stations,central_government_office,Overture+meta
+northern-ca,06045010601,False,Sherwood Valley Off-Reservation Trust Land,strict,Chamberlain Creek Fire Station,ambulance_and_ems_services,Overture+meta
+northern-ca,06045010602,False,,,,,
+northern-ca,06049000100,False,,loose,Modoc Fire Safe Council,community_services_non_profits,Overture+meta
+northern-ca,06049000100,False,,strict,Likely Town West Valley Fire Station,fire_protection_service,Overture+meta
+northern-ca,06049000200,False,Lookout Rancheria,,,,
+northern-ca,06055201800,False,,strict,Capell Valley Volunteer Fire Station,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06057000104,False,,,,,
+northern-ca,06057000300,False,,,,,
+northern-ca,06057000401,False,,,,,
+northern-ca,06057000602,False,,loose,Fire Safe Council of Nevada County,community_services_non_profits,Overture+Overture-signals+meta
+northern-ca,06057000702,False,,,,,
+northern-ca,06057000801,False,,loose,Cal Fire Washington Ridge,central_government_office,Foursquare+Overture+Overture-signals
+northern-ca,06057000801,False,,strict,Nevada County Consolidated FD,central_government_office,Overture+Overture-signals+meta
+northern-ca,06061020300,False,,strict,Auburn City Fire Department Station 1 - Martin Park,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06061020601,False,,,,,
+northern-ca,06061020604,False,,,,,
+northern-ca,06061020605,False,,strict,Fire Departments South Placer Fire District,central_government_office,Overture+meta
+northern-ca,06061020605,False,,strict,South Placer Fire District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06061020605,False,,loose,South Placer Firefighters Association,community_services_non_profits,Overture+meta
+northern-ca,06061020608,False,,,,,
+northern-ca,06061022013,False,,,,,
+northern-ca,06061023900,False,,strict,Lincoln Professional Firefighters,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06063000100,False,,loose,Plumas County Fire Safe Council,community_services_non_profits,Overture+Overture-signals+meta
+northern-ca,06063000100,False,,strict,Quincy Fire Department,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06063000100,False,,loose,Plumas County Fire Safe Council,,Foursquare+Overture+Overture-signals
+northern-ca,06067007011,False,,loose,Firefighters Print & Design,printing_services,Overture+Overture-signals+meta
+northern-ca,06067007011,False,,loose,California Fire Foundation,community_services_non_profits,Overture+meta
+northern-ca,06067007011,False,,loose,California Professional Firefighters,organization,BrightQuery+Overture+Overture-signals
+northern-ca,06067007101,False,,,,,
+northern-ca,06067007105,False,,,,,
+northern-ca,06067007207,False,,,,,
+northern-ca,06089010601,False,,,,,
+northern-ca,06089010807,False,,loose,Fire Hawk Adventures,arts_and_crafts,Foursquare+Overture+Overture-signals
+northern-ca,06089011100,False,,,,,
+northern-ca,06089011600,False,,,,,
+northern-ca,06089011701,False,,,,,
+northern-ca,06089012603,False,,strict,State of California Shingletown Forest Fire Station,central_government_office,Overture+meta
+northern-ca,06089012603,False,,strict,Shingletown Volunteer Fire,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06089012603,False,,loose,Prospect Peak Fire Lookout,landmark_and_historical_building,Overture+meta
+northern-ca,06089012605,False,,,,,
+northern-ca,06089012701,False,Pit River Trust Land,strict,Burney Fire Protection District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093000701,False,Karuk Off-Reservation Trust Land,strict,South Yreka Fire District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093000701,False,Karuk Off-Reservation Trust Land,strict,Grenada Fire Protection District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093000701,False,Karuk Off-Reservation Trust Land,strict,Gazelle Fire Department ,central_government_office,Overture+Overture-signals+meta
+northern-ca,06093000800,False,Quartz Valley Reservation,strict,Etna Fire Department,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093000800,False,Quartz Valley Reservation,strict,Scott Valley Fire,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093000800,False,Quartz Valley Reservation,strict,Scott Valley Helitack Base,central_government_office,Overture+meta
+northern-ca,06093000902,False,,strict,Mt Shasta Vista Volunteer Fire,fire_protection_service,Overture+meta
+northern-ca,06093001001,False,,,,,
+northern-ca,06093001002,False,,strict,Mount Shasta Fire District,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06093001300,False,Karuk Off-Reservation Trust Land,strict,Hornbrook Fire Protection District,fire_protection_service,Overture+meta
+northern-ca,06101050601,False,,,,,
+northern-ca,06103000100,False,,loose,Cal-Fire-Ishi Camp,professional_services,Overture+meta
+northern-ca,06103000100,False,,strict,Manton Volunteer Fire Department,fire_protection_service,Overture+meta
+northern-ca,06103000202,False,,,,,
+northern-ca,06103000300,False,,strict,MNF Log Springs Engine 34,central_government_office,Overture+meta
+northern-ca,06103000300,False,,strict,Salt Creek Conservation Camp,central_government_office,Overture+meta
+northern-ca,06103000300,False,,strict,TCFD Station 13 - Rancho Tehama,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06103000400,False,,,,,
+northern-ca,06103000500,False,,,,,
+northern-ca,06113010102,False,,,,,
+northern-ca,06113010401,False,,strict,Clarksburg Fire Protection District,fire_protection_service,Overture+meta
+northern-ca,06113010505,False,,strict,City of Davis: Waste Water Treatment Plant,central_government_office,Overture+meta
+northern-ca,06113010505,False,,strict,West Plainfield Fire Department,fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06115040702,False,,strict,Olivehurst Public Utility District Fire Department,fire_protection_service,Overture+meta
+northern-ca,06115040902,False,,,,,
+northern-ca,06115041101,False,,strict,"Foothill Fire, Brownsville CA",fire_protection_service,Overture+Overture-signals+meta
+northern-ca,06115041102,False,,strict,Dobbins Oregon House Fire Protection District,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40001376700,True,Cherokee OTSA,,,,
+eastern-ok,40001376800,True,Cherokee OTSA,,,,
+eastern-ok,40001377000,True,Cherokee OTSA,,,,
+eastern-ok,40013795900,True,Chickasaw OTSA,,,,
+eastern-ok,40013796101,True,Choctaw OTSA,,,,
+eastern-ok,40013796300,True,Choctaw OTSA,strict,Durant Fire And Rescue - Headquarters,fire_protection_service,Overture+meta
+eastern-ok,40013796400,True,Choctaw OTSA,,,,
+eastern-ok,40015162200,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40017300100,True,Cheyenne and Arapaho OTSA,strict,Calumet Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40017300100,True,Cheyenne and Arapaho OTSA,strict,"Cedar Lake Fire Department, Oklahoma",fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40017300202,True,Cheyenne and Arapaho OTSA,,,,
+eastern-ok,40017300400,True,Cheyenne and Arapaho OTSA,strict,El Reno Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40017301301,True,Cheyenne and Arapaho OTSA,,,,
+eastern-ok,40017301410,True,Cheyenne and Arapaho OTSA,strict,Mustang Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40019892200,True,Chickasaw OTSA,strict,Ratliff City Fire/Rescue,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40019892602,True,Chickasaw OTSA,,,,
+eastern-ok,40019892700,True,Chickasaw OTSA,strict,"Dickson Fire Department, Dickson Oklahoma",fire_protection_service,Overture+meta
+eastern-ok,40019892802,True,Chickasaw OTSA,,,,
+eastern-ok,40021977701,True,Cherokee OTSA,strict,Norwood Rural Volunteer Fire,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40021977801,True,Cherokee OTSA,,,,
+eastern-ok,40021977901,True,Cherokee OTSA,strict,Illinois River Volunteer Fire,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40021977901,True,Cherokee OTSA,strict,Sparrow Hawk Village Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40021978302,True,Cherokee OTSA,,,,
+eastern-ok,40023967200,True,Choctaw OTSA,,,,
+eastern-ok,40023967300,True,Choctaw OTSA,strict,Boswell Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40023967300,True,Choctaw OTSA,strict,Soper Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40023967300,True,Choctaw OTSA,strict,Nelson Volunteer Fire Department,business_manufacturing_and_supply,Overture+meta
+eastern-ok,40027200200,False,,strict,Norman Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40027201603,False,,,,,
+eastern-ok,40029388200,True,Choctaw OTSA,,,,
+eastern-ok,40031002004,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40031002005,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40031002405,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40031002406,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40033871200,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Temple VFD,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40033871200,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Randlett Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40037020704,True,Creek OTSA,,,,
+eastern-ok,40037020900,True,Creek OTSA,strict,Firehouse Oklahoma,community_services_non_profits,Overture+meta
+eastern-ok,40037020900,True,Creek OTSA,strict,Fire Departments,police_department,Overture+Overture-signals+meta
+eastern-ok,40037021600,True,Creek OTSA,strict,Sapulpa Fire Department Station 3,fire_protection_service,Overture+meta
+eastern-ok,40039960401,True,Cheyenne and Arapaho OTSA,strict,Arapaho Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40041375601,True,Cherokee OTSA,,,,
+eastern-ok,40041375804,True,Cherokee OTSA,strict,Cleora Community Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40041375804,True,Cherokee OTSA,strict,Firehouse Escape Lodge and RV Station,lodge,Overture+Overture-signals+meta
+eastern-ok,40041375805,True,Cherokee OTSA,strict,Monkey Island Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40047000101,False,,,,,
+eastern-ok,40047001602,False,,,,,
+eastern-ok,40049681100,True,Chickasaw OTSA,strict,Walker Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40049681200,True,Chickasaw OTSA,,,,
+eastern-ok,40049681400,True,Chickasaw OTSA,,,,
+eastern-ok,40049681900,True,Chickasaw OTSA,strict,Pernell Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40051000702,True,Chickasaw OTSA,,,,
+eastern-ok,40055967100,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40055967200,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Mangum Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40061279200,True,Choctaw OTSA,strict,Tamaha Fire and Rescue,community_services_non_profits,Overture+meta
+eastern-ok,40061279200,True,Choctaw OTSA,strict,Stigler Fire Department,central_government_office,Overture+Overture-signals+meta
+eastern-ok,40061279300,True,Choctaw OTSA,,,,
+eastern-ok,40063485000,True,Choctaw OTSA,strict,Calvin Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40065968300,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Eldorado Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40065968400,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40065968700,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Altus Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40067371600,True,Chickasaw OTSA,,,,
+eastern-ok,40069660202,True,Chickasaw OTSA,strict,Reagan Volunteer Fire Department - Oklahoma,fire_protection_service,Overture+meta
+eastern-ok,40069660202,True,Chickasaw OTSA,strict,Reagan Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40071000100,True,Kaw/Ponca joint-use OTSA,,,,
+eastern-ok,40071000202,True,Kaw/Ponca joint-use OTSA,,,,
+eastern-ok,40071001100,True,Tonkawa OTSA,strict,Tonkawa City Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,Kildare Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,Newkirk Fire Department EMS,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,Dale Township Fire Department,community_services_non_profits,Overture+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,River Road Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,Bear Creek Rural Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40071001200,True,Kaw OTSA,strict,Kaw City Volunteer Fire Department,ambulance_and_ems_services,Overture+meta
+eastern-ok,40071001301,True,Tonkawa OTSA,strict,Blackwell Fire Department,police_department,Overture+meta
+eastern-ok,40073958300,True,Cheyenne and Arapaho OTSA,strict,Kingfisher Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40077087100,True,Choctaw OTSA,,,,
+eastern-ok,40077087300,True,Choctaw OTSA,,,,
+eastern-ok,40079040198,True,Choctaw OTSA,strict,Arkoma OK Emergency Management,central_government_office,Overture+meta
+eastern-ok,40079040299,True,Choctaw OTSA,,,,
+eastern-ok,40079040401,True,Choctaw OTSA,,,,
+eastern-ok,40079040402,True,Choctaw OTSA,,,,
+eastern-ok,40079040700,True,Choctaw OTSA,loose,Shoot Fire Shooters Archery Club,active_life,Overture+meta
+eastern-ok,40079040700,True,Choctaw OTSA,loose,Honobia Fire Tower,landmark_and_historical_building,Overture+meta
+eastern-ok,40081961500,True,Sac and Fox OTSA,strict,Prague Volunteer Fire Department,central_government_office,Overture+Overture-signals+meta
+eastern-ok,40083600600,True,Iowa OTSA,strict,Coyle Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40083600600,True,Iowa OTSA,loose,Angel Fire Equestrian Center,amusement_park,Overture+meta
+eastern-ok,40083600600,True,Iowa OTSA,loose,Angel Fire Equestrian Center,youth_organizations,Foursquare+Overture+Overture-signals
+eastern-ok,40083600600,True,Iowa OTSA,strict,Langston Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40085094100,True,Chickasaw OTSA,strict,Marietta Oklahoma Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40085094100,True,Chickasaw OTSA,strict,Lake Murray Village Fire Department,physical_therapy,Overture+meta
+eastern-ok,40085094300,True,Chickasaw OTSA,strict,Leon VFD,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40085094300,True,Chickasaw OTSA,strict,Orr Volunteer Fire Department ,fire_protection_service,Overture+meta
+eastern-ok,40087400104,True,Chickasaw OTSA,,,,
+eastern-ok,40089098300,True,Choctaw OTSA,,,,
+eastern-ok,40089098900,True,Choctaw OTSA,,,,
+eastern-ok,40091779601,True,Creek OTSA,,,,
+eastern-ok,40091779602,True,Cherokee OTSA,strict,Shady Grove Central High Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40091779700,True,Creek OTSA,,,,
+eastern-ok,40091780100,True,Creek OTSA,strict,Vivian Area Fire Association,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40091780301,True,Cherokee OTSA,,,,
+eastern-ok,40095094804,True,Chickasaw OTSA,strict,Willis-Powell Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40097040100,True,Cherokee OTSA,strict,Pryor Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40097040801,True,Cherokee OTSA,loose,Diamond Head Lone Chapel Fire,business_manufacturing_and_supply,Overture+meta
+eastern-ok,40099790600,True,Chickasaw OTSA,,,,
+eastern-ok,40099790702,True,Chickasaw OTSA,,,,
+eastern-ok,40099790802,True,Chickasaw OTSA,,,,
+eastern-ok,40101001200,True,Creek OTSA,strict,Mountain View Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40101001402,True,Cherokee OTSA,,,,
+eastern-ok,40101001502,True,Cherokee OTSA,,,,
+eastern-ok,40101001600,True,Creek OTSA,strict,Haskell Fire Department,police_department,Overture+meta
+eastern-ok,40105172300,True,Cherokee OTSA,,,,
+eastern-ok,40109100500,False,,,,,
+eastern-ok,40109101300,False,,,,,
+eastern-ok,40109106000,False,,,,,
+eastern-ok,40109107101,False,,strict,Pro-Tec Fire Services,fire_protection_service,Overture+meta
+eastern-ok,40109107601,False,,,,,
+eastern-ok,40109107805,False,,loose,Del City Firefighters Local 2171,labor_union,Overture+meta
+eastern-ok,40109108201,False,,loose,Fire Leaf Dispensary,cannabis_clinic,BrightQuery+Overture
+eastern-ok,40109108201,False,,loose,Emerald Fire Dispensary,cannabis_clinic,Overture+meta
+eastern-ok,40109108217,False,,,,,
+eastern-ok,40109108533,False,,strict,Deer Creek Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40109108711,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,,,,
+eastern-ok,40109108804,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,loose,Fire-Medic Group,health_and_medical,Overture+Overture-signals+meta
+eastern-ok,40109108900,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,strict,Jones Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40109109202,True,Iowa OTSA,strict,Luther Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40109109203,False,,,,,
+eastern-ok,40111000601,True,Creek OTSA,,,,
+eastern-ok,40111000602,True,Creek OTSA,,,,
+eastern-ok,40111000902,True,Creek OTSA,,,,
+eastern-ok,40113940012,True,Osage Reservation,,,,
+eastern-ok,40113940013,True,Osage Reservation,strict,Pawhuska Fire/EMS,fire_protection_service,Overture+meta
+eastern-ok,40113940014,True,Osage Reservation,strict,Town of Sperry,public_service_and_government,Overture+meta
+eastern-ok,40117957400,True,Pawnee OTSA,strict,"Ralston Volunteer Fire Department Ralston, OK",fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40119010400,False,,strict,Stillwater Fire Department Station 2,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40119010902,False,,strict,"City Of Stillwater, Fire Station #4",central_government_office,BrightQuery+Overture
+eastern-ok,40119011103,False,,,,,
+eastern-ok,40119011104,True,Iowa OTSA,,,,
+eastern-ok,40121485601,True,Choctaw OTSA,strict,Longtown Volunteer FireDepartment,fire_protection_service,Overture+meta
+eastern-ok,40121485700,True,Choctaw OTSA,strict,Elm Point Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40121486500,True,Choctaw OTSA,,,,
+eastern-ok,40123088900,True,Chickasaw OTSA,,,,
+eastern-ok,40123089600,True,Chickasaw OTSA,strict,Fittstown Volunteer Fire Department,public_service_and_government,Overture+meta
+eastern-ok,40125500200,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,,,,
+eastern-ok,40125500902,True,Sac and Fox OTSA,,,,
+eastern-ok,40125501003,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,,,,
+eastern-ok,40125501005,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,,,,
+eastern-ok,40125501101,True,Citizen Potawatomi Nation-Absentee Shawnee OTSA,loose,Potawatomi Fire,professional_sports_team,Overture+Overture-signals+meta
+eastern-ok,40127097600,True,Choctaw OTSA,strict,Clayton Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40131050105,True,Cherokee OTSA,,,,
+eastern-ok,40131050201,True,Cherokee OTSA,strict,Claremore Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40131050304,True,Cherokee OTSA,,,,
+eastern-ok,40131050602,True,Cherokee OTSA,strict,Verdigris Fire Protection District,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40131050702,True,Cherokee OTSA,,,,
+eastern-ok,40131050801,True,Cherokee OTSA,strict,Northwest Rogers County Fire Station 1,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40131050802,True,Cherokee OTSA,,,,
+eastern-ok,40133583200,True,Seminole OTSA,strict,Strother Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40133583400,True,Seminole OTSA,,,,
+eastern-ok,40133583800,True,Seminole OTSA,,,,
+eastern-ok,40135030103,True,Cherokee OTSA,,,,
+eastern-ok,40135030106,True,Cherokee OTSA,,,,
+eastern-ok,40135030201,True,Cherokee OTSA,strict,Blackgum Fire Department Community Building,community_services_non_profits,Overture+Overture-signals+meta
+eastern-ok,40135030303,True,Cherokee OTSA,strict,Sallisaw Fire Department Station 1 - Headquarters,fire_protection_service,Overture+meta
+eastern-ok,40135030303,True,Cherokee OTSA,strict,Liberty Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40135030403,True,Cherokee OTSA,,,,
+eastern-ok,40137000400,True,Chickasaw OTSA,,,,
+eastern-ok,40137000800,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,"Oakridge Volunteer Fire Department - Duncan, OK",fire_protection_service,Overture+meta
+eastern-ok,40137000800,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Empire Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40137000901,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Central High Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40141070200,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,,,,
+eastern-ok,40141070400,True,Kiowa-Comanche-Apache-Fort Sill Apache OTSA,strict,Frederick Fire & Rescue,public_service_and_government,Overture+meta
+eastern-ok,40143000400,True,Cherokee OTSA,,,,
+eastern-ok,40143003000,True,Creek OTSA,loose,Fire Tree Seed Vault,shopping,Microsoft+Overture+Overture-signals
+eastern-ok,40143003000,True,Creek OTSA,strict,Firestation 13 Tulsa,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40143003000,True,Creek OTSA,strict,Tulsa Station 13,music_venue,Overture+Overture-signals+meta
+eastern-ok,40143004700,True,Creek OTSA,,,,
+eastern-ok,40143004800,True,Creek OTSA,,,,
+eastern-ok,40143005500,True,Cherokee OTSA,,,,
+eastern-ok,40143006000,True,Cherokee OTSA,,,,
+eastern-ok,40143006600,True,Creek OTSA,strict,Berryhill Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40143007525,True,Creek OTSA,,,,
+eastern-ok,40143007535,True,Creek OTSA,,,,
+eastern-ok,40143007803,True,Creek OTSA,,,,
+eastern-ok,40143009200,True,Creek OTSA,,,,
+eastern-ok,40143009403,True,Creek OTSA,,,,
+eastern-ok,40145030403,True,Creek OTSA,strict,Rolling Hills Fire District #1,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40145030604,True,Creek OTSA,loose,Coweta Firefighter Auxiliary,community_services_non_profits,Overture+meta
+eastern-ok,40145030604,True,Creek OTSA,strict,Coweta Fire Department,police_department,Overture+Overture-signals+meta
+eastern-ok,40147000100,True,Cherokee OTSA,,,,
+eastern-ok,40147001200,True,Cherokee OTSA,,,,
+eastern-ok,40149965000,True,Cheyenne and Arapaho OTSA,strict,Sentinel Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40149965000,True,Cheyenne and Arapaho OTSA,strict,Rocky Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+eastern-ok,40149965400,True,Cheyenne and Arapaho OTSA,,,,
+eastern-ok,40151954202,False,,,,,
+eastern-ok,40151954400,False,,strict,Waynoka Fire Department,central_government_office,Overture+Overture-signals+meta
+eastern-ok,40151954400,False,,strict,Dacoma Volunteer Fire Department,fire_protection_service,Overture+meta
+eastern-ok,40153953100,False,,,,,
+eastern-ok,40153953200,False,,strict,Sharon Oklahoma Fire Department,central_government_office,Overture+Overture-signals+meta
+eastern-ok,40153953400,False,,,,,
+south-central-tx,48001951002,False,,strict,Elkhart Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48007950302,False,,,,,
+south-central-tx,48007950400,False,,strict,Wildwood Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48007950503,False,,,,,
+south-central-tx,48015760100,False,,,,,
+south-central-tx,48015760502,False,,strict,Bellville Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48015760502,False,,loose,Texas Select from Forged in Fire,active_life,Overture+meta
+south-central-tx,48019000200,False,,strict,Tarpley Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48019000200,False,,strict,Medina Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48019000200,False,,strict,Vanderpool Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48021950102,False,,,,,
+south-central-tx,48021950804,False,,,,,
+south-central-tx,48021950806,False,,strict,Bastrop County Emergency Services District No. 1,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48023950302,False,,strict,Seymour Baylor County Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48025950204,False,,,,,
+south-central-tx,48027020401,False,,,,,
+south-central-tx,48027020800,False,,,,,
+south-central-tx,48027021305,False,,,,,
+south-central-tx,48027022300,False,,,,,
+south-central-tx,48027022600,False,,strict,Killeen Fire Department - Official,central_government_office,Overture+Overture-signals+meta
+south-central-tx,48027022600,False,,loose,Open Fire International Fellowship,church_cathedral,Overture+Overture-signals+meta
+south-central-tx,48027023500,False,,loose,OPEN FIRE,church_cathedral,Overture+Overture-signals+meta
+south-central-tx,48029120301,False,,,,,
+south-central-tx,48029120402,False,,,,,
+south-central-tx,48029120502,False,,strict,San Antonio Fire Department Station 24,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48029121905,False,,strict,Bexar-Bulverde Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48029131503,False,,,,,
+south-central-tx,48029131506,False,,,,,
+south-central-tx,48029141800,False,,,,,
+south-central-tx,48029141900,False,,strict,Lone Oak Vol Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48029152100,False,,strict,Atascosa-Bexar County Line Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48029160901,False,,strict,City of San Antonio All Other Purposes,central_government_office,Overture+meta
+south-central-tx,48029162003,False,,strict,Bexar County District 5 Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48029181724,False,,,,,
+south-central-tx,48029182002,False,,,,,
+south-central-tx,48029191101,False,,,,,
+south-central-tx,48029191406,False,,,,,
+south-central-tx,48029191701,False,,strict,Hollywood Park Fire Fighters Association ,community_services_non_profits,Overture+meta
+south-central-tx,48033950100,False,,strict,Borden County Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48035950200,False,,,,,
+south-central-tx,48035950300,False,,strict,Steele Creek Acres VFD,fire_protection_service,Overture+meta
+south-central-tx,48035950300,False,,strict,Steele Creek Acres Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48035950300,False,,strict,Ladies Auxiliary of Lakeside Village VFD,community_services_non_profits,Overture+meta
+south-central-tx,48035950300,False,,strict,Lakeside Village Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48035950400,False,,strict,Cranfills Gap Fire Dept.,community_services_non_profits,Overture+meta
+south-central-tx,48035950400,False,,loose,Bosque River Fire Arms ,grocery_store,Overture+Overture-signals+meta
+south-central-tx,48035950500,False,,loose,Clifton City Fire Administration,public_service_and_government,Overture+meta
+south-central-tx,48035950600,False,,strict,West Shore Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48039660501,False,,strict,Pearland Volunteer Fire Department Station 4,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48039661502,False,,,,,
+south-central-tx,48039661700,False,,strict,Luverpool Fire Station,real_estate_service,Overture+meta
+south-central-tx,48039662700,False,,,,,
+south-central-tx,48039662900,False,,strict,Brazoria Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48039663000,False,,strict,Brazoria Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48041000206,False,,,,,
+south-central-tx,48041000301,False,,,,,
+south-central-tx,48049950202,False,,strict,Lake Brownwood Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48049950202,False,,strict,Lake Bridge VFD Community Center,community_services_non_profits,Overture+meta
+south-central-tx,48049950300,False,,strict,Zephyr Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48049950500,False,,,,,
+south-central-tx,48051970100,False,,,,,
+south-central-tx,48051970501,False,,strict,Birch Creek Are Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48053960802,False,,loose,Quality Fire,fireplace_service,Overture+meta
+south-central-tx,48053960802,False,,strict,Spicewood Fire Rescue,fire_protection_service,Overture+meta
+south-central-tx,48055960104,False,,,,,
+south-central-tx,48057000300,False,,strict,Olivia-Port Alto Fire Department & EMS,central_government_office,Overture+meta
+south-central-tx,48057000401,False,,strict,Magnolia Beach VFD Auxiliary,beach,Overture+meta
+south-central-tx,48057000401,False,,strict,Magnolia Beach Volunteer Fire Dept,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48057000502,False,,,,,
+south-central-tx,48061010102,False,,strict,Arroyo City Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48061011500,False,,,,,
+south-central-tx,48061012202,False,,,,,
+south-central-tx,48061012506,False,,,,,
+south-central-tx,48061013004,False,,strict,Brownsville Fire Station 4,public_service_and_government,Overture+meta
+south-central-tx,48061013700,False,,strict,Fire Station 2,gas_station,Overture+meta
+south-central-tx,48061980100,False,,,,,
+south-central-tx,48063950102,False,,strict,Rocky Mound Volunteer Fire,town_hall,Overture+Overture-signals+meta
+south-central-tx,48073950100,False,,strict,Reklaw Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48073950201,False,,,,,
+south-central-tx,48073950301,False,,,,,
+south-central-tx,48073950500,False,,,,,
+south-central-tx,48073951000,False,,,,,
+south-central-tx,48081950100,False,,,,,
+south-central-tx,48081950200,False,,strict,Robert Lee Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48085030304,False,,loose,Fire Lily Soapery,spas,Overture+meta
+south-central-tx,48085030304,False,,loose,Summit Fire & Security,fire_protection_service,Microsoft+Overture
+south-central-tx,48085031101,False,,,,,
+south-central-tx,48085031326,False,,,,,
+south-central-tx,48085031336,False,,,,,
+south-central-tx,48085031903,False,,,,,
+south-central-tx,48089750100,False,,strict,Eagle Lake Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48091310401,False,,,,,
+south-central-tx,48091310405,False,,strict,New Braunfels Fire Department Station 5,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48091310603,False,,,,,
+south-central-tx,48091310604,False,,,,,
+south-central-tx,48091310608,False,,,,,
+south-central-tx,48091310613,False,,,,,
+south-central-tx,48091310706,False,,,,,
+south-central-tx,48091310804,False,,,,,
+south-central-tx,48091310905,False,,,,,
+south-central-tx,48093950300,False,,strict,Comanche Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48093950400,False,,strict,Proctor Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48095950300,False,,strict,Lake Ivie Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48097000100,False,,strict,Callisburg Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48097000400,False,,,,,
+south-central-tx,48097001100,False,,strict,Gainesville Fire Department Station 3,fire_protection_service,Overture+meta
+south-central-tx,48097001100,False,,strict,Cooke County Emergency Medical Services Station 1,ambulance_and_ems_services,Overture+meta
+south-central-tx,48099010603,False,,,,,
+south-central-tx,48107950300,False,,,,,
+south-central-tx,48113002703,False,,strict,Dallas Fire-rescue Station 44,fire_protection_service,Overture+meta
+south-central-tx,48113006200,False,,strict,Station 33 Dallas Fire Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48113009304,False,,,,,
+south-central-tx,48113014157,False,,,,,
+south-central-tx,48113016406,False,,,,,
+south-central-tx,48113016525,False,,,,,
+south-central-tx,48113016535,False,,,,,
+south-central-tx,48113016632,False,,strict,Desoto Fire Rescue Station 262,fire_protection_service,Overture+meta
+south-central-tx,48113016634,False,,strict,Desoto Fire Station 261,,Overture+meta
+south-central-tx,48113017204,False,,,,,
+south-central-tx,48113017805,False,,,,,
+south-central-tx,48113018501,False,,loose,DSS Fire,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48113018501,False,,strict,Garland Fire Department Station 2,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48113019700,False,,,,,
+south-central-tx,48115950401,False,,,,,
+south-central-tx,48121020117,False,,strict,Aubrey Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48121020117,False,,loose,Red Hot Fire Shop,appliance_store,BrightQuery+Overture+Overture-signals
+south-central-tx,48121020129,False,,,,,
+south-central-tx,48121020131,False,,,,,
+south-central-tx,48121020207,False,,strict,Krum Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48121021304,False,,,,,
+south-central-tx,48121021412,False,,strict,Lake Cities Fire Department Station 2,fire_protection_service,Overture+meta
+south-central-tx,48121021412,False,,loose,North Central Texas College Fire Science Program,college_university,Overture+meta
+south-central-tx,48121021621,False,,,,,
+south-central-tx,48121021653,False,,,,,
+south-central-tx,48121021728,False,,strict,Lewisville Fire Department Station 3,public_service_and_government,Overture+meta
+south-central-tx,48121021750,False,,,,,
+south-central-tx,48123970202,False,,strict,Thomaston Volunteer Fire Department ,printing_services,Overture+meta
+south-central-tx,48131950500,False,,,,,
+south-central-tx,48133950500,False,,,,,
+south-central-tx,48137950300,False,,strict,Rocksprings Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48137950300,False,,strict,Rocksprings Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48139060206,False,,strict,Red Oak Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48139060216,False,,loose,Fire Bird Entertainment,dj_service,Microsoft+Overture+Overture-signals
+south-central-tx,48139060216,False,,strict,Ovilla Fire Department,police_department,Overture+Overture-signals+meta
+south-central-tx,48139060220,False,,,,,
+south-central-tx,48139061000,False,,strict,Italy Fire and Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48139061000,False,,strict,Italy Fire & Rescue ESD3,fire_protection_service,Overture+meta
+south-central-tx,48139061000,False,,strict,Milford Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48139061300,False,,,,,
+south-central-tx,48139061402,False,,,,,
+south-central-tx,48139061500,False,,,,,
+south-central-tx,48143950700,False,,strict,Selden Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48145000200,False,,strict,Golinda Fire Dept,fire_protection_service,Overture+meta
+south-central-tx,48147950500,False,,strict,Dodd City Fire Department,public_service_and_government,Overture+meta
+south-central-tx,48147950500,False,,strict,Dodd City Volunteer Fire Dept.,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48147950500,False,,strict,Ladonia Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48147950600,False,,strict,Randolph Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48149970200,False,,strict,Winchester Area VFD,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48151950400,False,,strict,Rotan Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48155950100,False,,,,,
+south-central-tx,48157670801,False,,strict,Fresno Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48161000200,False,,strict,Fairfield Fire Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48161000900,False,,strict,Butler Vfd,medical_service_organizations,Overture+Overture-signals+meta
+south-central-tx,48167720603,False,,,,,
+south-central-tx,48167721209,False,,,,,
+south-central-tx,48167723401,False,,,,,
+south-central-tx,48173950100,False,,,,,
+south-central-tx,48177000100,False,,strict,Waelder Fire/Rescue,fire_protection_service,Overture+meta
+south-central-tx,48177000100,False,,strict,Ottine Volunteer Fire Department,medical_service_organizations,Overture+meta
+south-central-tx,48177000500,False,,strict,Nixon Fire Dept,central_government_office,Overture+Overture-signals+meta
+south-central-tx,48177000500,False,,loose,Gonzales County Fire South,fire_protection_service,Overture+meta
+south-central-tx,48177000600,False,,,,,
+south-central-tx,48181000901,False,,strict,"Denison Fire Department, Station 3",central_government_office,BrightQuery+Overture
+south-central-tx,48181001104,False,,loose,Firefighter Rolloffs,garbage_collection_service,Overture+Overture-signals+meta
+south-central-tx,48181001500,False,,,,,
+south-central-tx,48181001700,False,,,,,
+south-central-tx,48181001803,False,,,,,
+south-central-tx,48181001901,False,,strict,Gunter Volunteer Fire & Rescue,fire_protection_service,Overture+meta
+south-central-tx,48181001902,False,,,,,
+south-central-tx,48185180304,False,,strict,Iola VFD,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48187210608,False,,loose,Guadalupe County Fire Fighters Association,community_services_non_profits,Overture+meta
+south-central-tx,48187210608,False,,strict,Lake Dunlap Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48187210803,False,,,,,
+south-central-tx,48201222502,False,,strict,Houston Fire Department Station 74 Emergency Medical Services,fire_protection_service,Overture+meta
+south-central-tx,48201241105,False,,strict,Spring Fire Department St73,public_service_and_government,Overture+meta
+south-central-tx,48201241202,False,,strict,Spring Volunteer Fire Department Station 74,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201251600,False,,,,,
+south-central-tx,48201251800,False,,,,,
+south-central-tx,48201251904,False,,,,,
+south-central-tx,48201311400,False,,strict,Houston Firehouse 23,community_services_non_profits,Overture+Overture-signals+meta
+south-central-tx,48201321401,False,,,,,
+south-central-tx,48201322900,False,,,,,
+south-central-tx,48201323100,False,,,,,
+south-central-tx,48201323602,False,,,,,
+south-central-tx,48201323900,False,,,,,
+south-central-tx,48201331501,False,,strict,Houston Fire Department - Station 55 - The Double Nickel,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201342500,False,,strict,Deer Park Volunteer Fire Dept,public_service_and_government,Overture+meta
+south-central-tx,48201342500,False,,strict,Deer Park Fire Station 1,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201342500,False,,loose,Impact Fire Services,fire_protection_service,Microsoft+Overture+Overture-signals
+south-central-tx,48201342802,False,,strict,Deer Park Vol. Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201343601,False,,,,,
+south-central-tx,48201423303,False,,,,,
+south-central-tx,48201430500,False,,strict,Village Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201430500,False,,loose,IT Fire Control,information_technology_company,Overture+Overture-signals+meta
+south-central-tx,48201431600,False,,,,,
+south-central-tx,48201454700,False,,strict,West I-10 Station 2,train_station,Overture+meta
+south-central-tx,48201455300,False,,,,,
+south-central-tx,48201521600,False,,loose,Ferguson Fire & Fabrication,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48201521600,False,,strict,HFD Firehouse Sixty Six,fire_protection_service,Overture+meta
+south-central-tx,48201542700,False,,loose,Flavors On Fire,restaurant,BrightQuery+Overture+Overture-signals
+south-central-tx,48201555600,False,,strict,Rosehill Fire Department,health_and_medical,BrightQuery+Overture
+south-central-tx,48207950300,False,,strict,Haskell Volunteer Fire Department,central_government_office,Overture+meta
+south-central-tx,48207950300,False,,strict,Paint Creek Volunteer Fire Dept,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48209010200,False,,,,,
+south-central-tx,48209010702,False,,,,,
+south-central-tx,48209010810,False,,strict,Wimberley Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48209010812,False,,,,,
+south-central-tx,48209010813,False,,,,,
+south-central-tx,48213950202,False,,strict,Brownsboro Fire Rescue,ambulance_and_ems_services,Overture+Overture-signals+meta
+south-central-tx,48213950301,False,,,,,
+south-central-tx,48213950700,False,,strict,Seven Points Fire-Rescue,central_government_office,Overture+Overture-signals+meta
+south-central-tx,48213950700,False,,strict,Seven Points Volunteer Fire Department - Substation,fire_protection_service,Overture+meta
+south-central-tx,48213950802,False,,,,,
+south-central-tx,48213950903,False,,,,,
+south-central-tx,48213950904,False,,,,,
+south-central-tx,48215021309,False,,strict,Pharr Fire Department Station 4,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48215022802,False,,,,,
+south-central-tx,48215023105,False,,,,,
+south-central-tx,48215024206,False,,,,,
+south-central-tx,48215024301,False,,,,,
+south-central-tx,48215024502,False,,strict,Edcouch Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48215024502,False,,loose,Pro-Tech Fire,home_security,Overture+meta
+south-central-tx,48217960800,False,,,,,
+south-central-tx,48217961100,False,,strict,"""Abbott VFD""",community_services_non_profits,Overture+meta
+south-central-tx,48217961100,False,,loose,Hill College Fire Science Program ,education,Overture+meta
+south-central-tx,48217961100,False,,strict,Mertens Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48221160215,False,,strict,Hood County Station 70 VFD,community_services_non_profits,Overture+Overture-signals+meta
+south-central-tx,48223950302,False,,strict,Brinker Volunteer Fire Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48225950101,False,,,,,
+south-central-tx,48225950200,False,,strict,Austonio VFD,community_services_non_profits,Overture+meta
+south-central-tx,48225950200,False,,strict,Austonio Vol Fire Dept,fire_protection_service,Overture+meta
+south-central-tx,48225950500,False,,,,,
+south-central-tx,48225950600,False,,strict,"Kennard, TX Vol. Fire Department",central_government_office,Overture+meta
+south-central-tx,48225950600,False,,strict,Ratcliff Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48225950600,False,,strict,Kennard Ratcliff Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48227950100,False,,,,,
+south-central-tx,48227950700,False,,,,,
+south-central-tx,48227950801,False,,,,,
+south-central-tx,48227950900,False,,,,,
+south-central-tx,48235950100,False,,strict,Barnhart Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48237950100,False,,strict,Jack County Rural Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48237950500,False,,strict,East Jack County Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48249950700,False,,,,,
+south-central-tx,48251130900,False,,,,,
+south-central-tx,48255970100,False,,strict,Falls City Fire Dept,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48255970400,False,,,,,
+south-central-tx,48257050213,False,,,,,
+south-central-tx,48257051201,False,,,,,
+south-central-tx,48259970500,False,,strict,Boerne Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48273020101,False,,loose,Naval Air Station Kingsville Fire & Emergency Services,central_government_office,Overture+meta
+south-central-tx,48275950200,False,,,,,
+south-central-tx,48277000402,False,,,,,
+south-central-tx,48281950303,False,,,,,
+south-central-tx,48285000300,False,,,,,
+south-central-tx,48285000500,False,,,,,
+south-central-tx,48291700302,False,,,,,
+south-central-tx,48293970100,False,,strict,Prairie Hill Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48297950100,False,,strict,Three Rivers Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48299970100,False,,strict,Castell VFD,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48299970300,False,,strict,Sunrise Beach Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48299970502,False,,,,,
+south-central-tx,48303001709,False,,,,,
+south-central-tx,48303001714,False,,,,,
+south-central-tx,48303001716,False,,,,,
+south-central-tx,48303002500,False,,,,,
+south-central-tx,48303010101,False,,,,,
+south-central-tx,48303010102,False,,,,,
+south-central-tx,48305950500,False,,,,,
+south-central-tx,48305950600,False,,,,,
+south-central-tx,48307950400,False,,,,,
+south-central-tx,48307950500,False,,strict,Rochelle Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48307950500,False,,strict,Placid Community Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48309003200,False,,strict,City of Lacy Lakeview 2,fire_protection_service,Overture+meta
+south-central-tx,48309003300,False,,,,,
+south-central-tx,48309003402,False,,strict,CBluff VFD,fire_protection_service,Overture+meta
+south-central-tx,48309003402,False,,strict,Elm Mott Volunteer Fire & Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48309003602,False,,strict,Riesel Vol Fire Dept,fire_protection_service,Overture+meta
+south-central-tx,48309003703,False,,,,,
+south-central-tx,48309004202,False,,strict,Ross Volunteer Fire Department,community_services_non_profits,Overture+Overture-signals+meta
+south-central-tx,48309004300,False,,,,,
+south-central-tx,48317950100,False,,,,,
+south-central-tx,48319950200,False,,,,,
+south-central-tx,48325000104,False,,strict,Mico Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48325000500,False,,,,,
+south-central-tx,48331950100,False,,,,,
+south-central-tx,48331950300,False,,strict,Black Jack Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48333950200,False,,strict,Goldthwaite Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48337950401,False,,strict,Bowie Rural Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48339690207,False,,strict,Firehouse Music,music_and_dvd_store,Foursquare+Overture
+south-central-tx,48339690207,False,,strict,Magnolia Volunteer Fire Department Station 184,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48339691500,False,,loose,"The Woodlands Professional Fire Fighters Association, L3846",labor_union,Overture+meta
+south-central-tx,48339692010,False,,,,,
+south-central-tx,48339692804,False,,,,,
+south-central-tx,48339693001,False,,,,,
+south-central-tx,48339693600,False,,,,,
+south-central-tx,48339693702,False,,,,,
+south-central-tx,48339694107,False,,,,,
+south-central-tx,48339694204,False,,,,,
+south-central-tx,48339694208,False,,strict,MCHD Station 14,hospital,Overture+Overture-signals+meta
+south-central-tx,48339694210,False,,,,,
+south-central-tx,48339694501,False,,,,,
+south-central-tx,48339694601,False,,,,,
+south-central-tx,48339694603,False,,loose,Fire Lights,lighting_store,Overture+meta
+south-central-tx,48353950100,False,,,,,
+south-central-tx,48355002703,False,,strict,Fire Station 11,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48355005803,False,,strict,Nueces County ESD4,ambulance_and_ems_services,Overture+meta
+south-central-tx,48355005803,False,,strict,Agua Dulce Volunteer Fire Dept. (Nueces Jim Wells ESD #5),fire_protection_service,Overture+meta
+south-central-tx,48363000700,False,,strict,Mineral Wells Fire And Emergency Medical Services Station 2,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48363000900,False,,loose,Fire EMS Department Mineral Wells,fire_protection_service,Overture+meta
+south-central-tx,48363000900,False,,strict,"City of Mineral Wells, Texas",central_government_office,Overture+Overture-signals+meta
+south-central-tx,48367140410,False,,,,,
+south-central-tx,48367140416,False,,,,,
+south-central-tx,48367140603,False,,strict,Horseshoe Bend Volunteer Fire Department,physical_therapy,Overture+meta
+south-central-tx,48367140603,False,,strict,Tin Top Volunteer Fire Department,central_government_office,Overture+meta
+south-central-tx,48373210205,False,,strict,Scenic Loop Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48387950502,False,,,,,
+south-central-tx,48397040514,False,,,,,
+south-central-tx,48401950300,False,,strict,Kilgore Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48401950501,False,,,,,
+south-central-tx,48401950502,False,,strict,Crims Chapel Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48401951000,False,,,,,
+south-central-tx,48407200107,False,,,,,
+south-central-tx,48407200202,False,,strict,Camilla Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48409011100,False,,strict,Odem Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48423001406,False,,strict,Firehouse Metal Works,metal_fabricator,Overture+Overture-signals+meta
+south-central-tx,48423001606,False,,strict,Firehouse 903 Storage,self_storage_facility,Overture+Overture-signals+meta
+south-central-tx,48423001807,False,,loose,State Parks Wildland Fire Program-Texas Parks and Wildlife,central_government_office,Overture+meta
+south-central-tx,48423001916,False,,,,,
+south-central-tx,48423002013,False,,,,,
+south-central-tx,48427950202,False,,,,,
+south-central-tx,48427950404,False,,,,,
+south-central-tx,48429950200,False,,,,,
+south-central-tx,48431950100,False,,,,,
+south-central-tx,48433950300,False,,,,,
+south-central-tx,48439104702,False,,strict,Fort Worth Fire Department - Administration,central_government_office,BrightQuery+Overture
+south-central-tx,48439104702,False,,strict,Fort Worth Fire Department Station 17,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48439106004,False,,loose,Fire Line Services,contractor,Foursquare+Overture+Overture-signals
+south-central-tx,48439110500,False,,strict,River Oaks Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48439111409,False,,,,,
+south-central-tx,48439111530,False,,,,,
+south-central-tx,48439111545,False,,,,,
+south-central-tx,48439111561,False,,,,,
+south-central-tx,48439113005,False,,strict,Arlington Fire Department Station 5,public_service_and_government,Overture+Overture-signals+meta
+south-central-tx,48439113109,False,,,,,
+south-central-tx,48439113410,False,,strict,Hurst Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48439113410,False,,strict,Fire Station 2,park,Overture+Overture-signals+meta
+south-central-tx,48439113517,False,,,,,
+south-central-tx,48439113635,False,,strict,Grapevine Fire Department Station 3,fire_protection_service,Overture+meta
+south-central-tx,48439114003,False,,strict,Saginaw Fire Department Station 2,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48439114105,False,,,,,
+south-central-tx,48439114107,False,,strict,Station 16,,Overture+meta
+south-central-tx,48439114203,False,,loose,Red Fire Boston Terriers,pet_breeder,Overture+Overture-signals+meta
+south-central-tx,48439121615,False,,strict,Arlington Fire Department Station 4,central_government_office,Overture+Overture-signals+meta
+south-central-tx,48443950100,False,,,,,
+south-central-tx,48449950400,False,,strict,Nortex Volunteer Fire Department,ambulance_and_ems_services,Overture+meta
+south-central-tx,48449950400,False,,strict,Cookville VFD,fire_protection_service,Overture+meta
+south-central-tx,48449950800,False,,strict,Mount Pleasant TX Fire Department and Emergency Management,fire_protection_service,Overture+meta
+south-central-tx,48451000300,False,,,,,
+south-central-tx,48451000801,False,,,,,
+south-central-tx,48451001101,False,,loose,KWFR FM The Fire,radio_station,Overture+Overture-signals+meta
+south-central-tx,48451001304,False,,strict,Firehouse Autoworks,auto_restoration_services,Microsoft+Overture+Overture-signals
+south-central-tx,48451001702,False,,strict,Grape Creek Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48451001708,False,,strict,"Pecan Creek Volunteer Fire Department, Texas",fire_protection_service,Overture+meta
+south-central-tx,48451001708,False,,strict,Pecan Creek VFD,fire_protection_service,Overture+meta
+south-central-tx,48453001920,False,,,,,
+south-central-tx,48453002219,False,,,,,
+south-central-tx,48453002436,False,,,,,
+south-central-tx,48453002440,False,,,,,
+south-central-tx,48453002447,False,,,,,
+south-central-tx,48453032000,False,,,,,
+south-central-tx,48453032800,False,,,,,
+south-central-tx,48453032900,False,,,,,
+south-central-tx,48453033600,False,,strict,Travis County Emergency Services District 6 Station 2,fire_protection_service,Overture+meta
+south-central-tx,48453033600,False,,strict,Lake Travis Fire Rescue,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48453033700,False,,,,,
+south-central-tx,48453034600,False,,,,,
+south-central-tx,48453035800,False,,,,,
+south-central-tx,48453036200,False,,,,,
+south-central-tx,48453036400,False,,loose,Fire Fest Music Festival,music_venue,Overture+meta
+south-central-tx,48453036400,False,,strict,Travis County ESD 1- Admin,fire_protection_service,Overture+meta
+south-central-tx,48453036500,False,,,,,
+south-central-tx,48453036800,False,,,,,
+south-central-tx,48453037100,False,,strict,Manchaca Volunteer Fire Department Station 3,fire_protection_service,Overture+meta
+south-central-tx,48453037500,False,,strict,North Lake Travis Fire Rescue,fire_protection_service,Overture+meta
+south-central-tx,48453042500,False,,,,,
+south-central-tx,48453042600,False,,,,,
+south-central-tx,48453042700,False,,,,,
+south-central-tx,48453980000,False,,,,,
+south-central-tx,48455950100,False,,strict,Apple Springs VFD,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48459950101,False,,,,,
+south-central-tx,48459950102,False,,strict,Diana Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48459950301,False,,,,,
+south-central-tx,48463950202,False,,,,,
+south-central-tx,48465950202,False,,,,,
+south-central-tx,48465950302,False,,loose,Val Verde County Rural Fire,central_government_office,Overture+Overture-signals+meta
+south-central-tx,48465950501,False,,loose,"Laughlin Fire Emergency Services, Texas",ambulance_and_ems_services,Overture+meta
+south-central-tx,48465950502,False,,,,,
+south-central-tx,48465950801,False,,strict,Del Rio Fire Department,it_service_and_computer_repair,Overture+meta
+south-central-tx,48465950802,False,,,,,
+south-central-tx,48467950100,False,,,,,
+south-central-tx,48467950200,False,,,,,
+south-central-tx,48467950601,False,,strict,Myrtle Springs Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48467950902,False,,strict,Wheeler Ben Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48467950902,False,,strict,Van Zandt Midway Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48467950902,False,,strict,"The Old Firehouse in Edom, TX",gift_shop,Microsoft+Overture
+south-central-tx,48469001300,False,,,,,
+south-central-tx,48471790101,False,,,,,
+south-central-tx,48471790402,False,,,,,
+south-central-tx,48473680601,False,,strict,Tri-County Volunteer Fire Department,professional_services,Overture+Overture-signals+meta
+south-central-tx,48477170602,False,,strict,Washington TX Volunteer Fire Dept,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48477170602,False,,strict,Washington TX Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48479000109,False,,strict,Firestation #2,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48479001715,False,,strict,Fire Station No. 9,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48479001715,False,,loose,Ice & Fire,desserts,Overture+meta
+south-central-tx,48479001720,False,,strict,Laredo Fire Department Station 8,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48479001813,False,,,,,
+south-central-tx,48479001825,False,,,,,
+south-central-tx,48481740400,False,,,,,
+south-central-tx,48481740600,False,,strict,Boling Volunteer Fire Department,fire_protection_service,Overture+meta
+south-central-tx,48481740901,False,,,,,
+south-central-tx,48481741100,False,,strict,Louise Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48489950700,False,,,,,
+south-central-tx,48491020114,False,,strict,Firestation 2,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48491020116,False,,,,,
+south-central-tx,48491020119,False,,,,,
+south-central-tx,48491020208,False,,loose,Fire Oak Distillery,distillery,Overture+Overture-signals+meta
+south-central-tx,48491020337,False,,strict,Firehouse Animal Health Center,veterinarian,Overture+Overture-signals+meta
+south-central-tx,48491020344,False,,,,,
+south-central-tx,48491020606,False,,,,,
+south-central-tx,48491020712,False,,loose,Impact Fire Services,fire_protection_service,Microsoft+Overture
+south-central-tx,48491020822,False,,,,,
+south-central-tx,48493000102,False,,,,,
+south-central-tx,48493000201,False,,,,,
+south-central-tx,48493000406,False,,strict,Wilson County District 2 Emergency Services Larry D Phillips Station 1,ambulance_and_ems_services,Overture+meta
+south-central-tx,48493000500,False,,,,,
+south-central-tx,48497150103,False,,loose,Fire Forged Barbell,gym,Overture+meta
+south-central-tx,48497150404,False,,,,,
+south-central-tx,48497150405,False,,strict,Sand Flat Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48497150405,False,,strict,Lake Bridgeport Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48497150405,False,,strict,Chico Community Volunteer Fire Department,fire_protection_service,Overture+Overture-signals+meta
+south-central-tx,48499950200,False,,loose,"Trails Country Fire, Security and Communications",professional_services,Overture+Overture-signals+meta
+south-central-tx,48499950200,False,,strict,Winnsboro Police and Fire Department,police_department,Overture+Overture-signals+meta
+south-central-tx,48499950402,False,,strict,City Of Alba Volunteer Fire Department,community_services_non_profits,Overture+meta
+south-central-tx,48505950402,False,,,,,
+south-central-tx,48507950302,False,,,,,

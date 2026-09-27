@@ -1,4 +1,4 @@
-# Half the fire stations on tribal land are missing from the map
+# Half the fire stations on tribal land can't be found as fire stations on the open map
 
 **Bias Bounty Mapping Equity Challenge — Best Bias Discovery entry**
 
@@ -10,8 +10,7 @@ so this finding is identical under both builds.
 
 ## The finding
 
-Across all four study regions, Overture Maps is missing **51.9% of the fire stations that exist
-on tribal land**, against 17.4% elsewhere. Not a percentage-point difference — three times the
+Across all four study regions, Overture Maps has no fire_department record for **51.9% of the fire stations that exist on tribal land**, against 17.4% elsewhere. Not a percentage-point difference — three times the
 omission rate.
 
 The automated scorecard puts the tribal coverage gap at **190% larger** than non-tribal, and
@@ -31,6 +30,13 @@ understates what is happening to emergency infrastructure specifically. Building
 near-saturated everywhere (mean gap 0.005); pooling them with facilities dilutes the signal.
 Isolate fire stations and the disparity is sharper and far more actionable.
 
+Note also that EMS shows no such disparity. Across the three regions that contain tribal land (South-Central Texas has none),
+the EMS gap is 0.575 on tribal tracts against 0.607 elsewhere — tribal areas are marginally
+*better* served by the map on that measure, and Overture holds 111 of 112 tribal EMS stations.
+Schools likewise show only a slight difference (0.046 against 0.039). So this is not a blanket
+rural under-mapping effect that happens to land on tribal land. It is specific to fire stations,
+which are exactly the facilities that matter first when a fire starts. This holds for the category the scorecard counts; whether the missing fire stations are absent or filed under other labels is taken up below.
+
 ## Why this is the number that matters
 
 There is a difference between a road being slightly short and a fire station not existing.
@@ -38,11 +44,11 @@ There is a difference between a road being slightly short and a fire station not
 A missing road segment degrades a route. A missing fire station changes which station gets
 dispatched. Any routing engine built on open map data — and that includes a great deal of
 consumer navigation, volunteer disaster mapping, and the logistics tooling relief organisations
-reach for first — cannot dispatch from a station it has no record of. It will route from the
+reach for first — cannot send anyone from a station it cannot identify as a fire station. It will route from the
 next one it knows about, which on tribal land in Eastern Oklahoma may be a county away.
 
 We therefore measured a second thing the composite score cannot express: tracts that contain a
-real fire station but where Overture shows **none at all**. Not undercounted — invisible.
+real fire station but where Overture shows **none at all**. Not undercounted — invisible to a fire-station query.
 
 | | tracts containing a station | station invisible in Overture | rate |
 |---|---|---|---|
@@ -86,7 +92,7 @@ Eastern Oklahoma is the clearest case because it has the largest tribal populati
 
 Tribal Eastern Oklahoma holds 987 of the region's 1,139 fire stations — the great majority of
 emergency response capacity in the region sits on tribal land — and Overture knows about 467 of
-them. The infrastructure exists. The record of it does not.
+them. The infrastructure exists. A findable record of it does not.
 
 ### Named tracts
 
@@ -114,18 +120,27 @@ these tracts, cannot answer with the six stations standing inside it. Choctaw Na
 alone accounts for six of the twelve. (County names follow from the county FIPS code, characters 3–5 of each
 GEOID; tribal area names and percentages are the challenge's own tribal stratum table.)
 
-The mechanism is almost certainly the ordinary one: Overture inherits heavily from OpenStreetMap
-and commercial point-of-interest feeds, both of which are built by contributors mapping where
-they live, work and sell. Tribal areas are rural, under-surveyed, and commercially uninteresting
-to the vendors whose data flows upstream. Nobody excluded them. They were simply never added,
-and no process exists to notice the absence.
+The mechanism is almost certainly the ordinary one. Overture's places layer is built from business-listing feeds, not OpenStreetMap; in the tracts studied here the largest named upstream source of its fire places is Meta, followed by BrightQuery, Foursquare and Microsoft (the sources field of the challenge's places layer). Tribal areas are rural, under-surveyed, and commercially uninteresting
+to the vendors whose data flows upstream. Nobody excluded them. Some were simply never added, others were listed under the wrong category (see below), and no process exists to notice either.
 
-Note also that EMS shows no such disparity. Across the three regions that contain tribal land,
-the EMS gap is 0.575 on tribal tracts against 0.607 elsewhere — tribal areas are marginally
-*better* served by the map on that measure, and Overture holds 111 of 112 tribal EMS stations.
-Schools likewise show only a slight difference (0.046 against 0.039). So this is not a blanket
-rural under-mapping effect that happens to land on tribal land. It is specific to fire stations,
-which are exactly the facilities that matter in the two hazards these regions face.
+### Missing, or filed under the wrong label?
+
+Our fire-station counts treat a station as present only when Overture files a place under `fire_department`. That is the challenge's own rule. The README lists only that category, our submission reproduces the reference score exactly with it, and adding `fire_protection_service` moves 408 tracts away from the reference (NOTES.md). The gap in this post is the gap in the scorecard's own fire metric.
+
+But a station can be on the map under another label. We re-checked all 740 invisible tracts (577 non-tribal, 163 tribal) using only data that is still published: the tracts from our scored file (`submissions/submission.csv`, rows with `poi_defined_fire = TRUE` and `poi_gap_fire = 1`), the Overture places layer and the tribal stratum table. A tract counts as mislabelled when it holds a place with `fire_department` or `fire_station` in another category field, or a station-like name such as "Fire Department", "Fire Station 3" or "VFD", after excluding businesses and other services. We find 282 such tracts, and a manual check of 40 random matches found 37 real fire stations.
+
+| | invisible tracts | station found under another label | still no fire station | share of tracts with a station that show none |
+|---|---|---|---|---|
+| non-tribal | 577 | 218 (38%) | 359 | 21.2% → **13.2%** |
+| tribal | 163 | 64 (39%) | 99 | 31.8% → **19.3%** |
+
+Mislabelling happens at almost the same rate on tribal and non-tribal land, so it does not explain the tribal gap. Once it is removed, tribal tracts are still 1.46 times as likely to show no fire station at all. The gap holds in each of the three regions with tribal land: Eastern Oklahoma 18.3% against 14.4%, Maricopa 33.3% against 14.2% (24 tribal tracts), and Northern California 30.8% against 17.7% (from only 13 tribal tracts there).
+
+Seven of the twelve tracts named above still show no fire station under any label: 40061279300, 40089098900, 40079040700, 40001376800, 40029388200, 40051000702 and 40055967100. In the other five the stations are in Overture under other labels, for example Boswell, Soper and Nelson Volunteer Fire Departments in 40023967300.
+
+We cannot go further and match station by station. The station points came from the challenge's HIFLD facilities layer (USGS National Map structures), which the organisers withdrew on 25 September 2026, and the rules do not allow an independently obtained copy. The 51.9% headline is a different kind of number from the tract counts. It compares totals of Overture `fire_department` places and USGS stations, so mislabelling pushes it up and duplicate listings push it down. Read it as the gap in what the scorecard counts, not as a census of absent stations.
+
+The mislabelling is a second bias, and the scorecard cannot see it. In about 38% of the tracts where its fire metric finds no station, the station is on the map, mostly filed under `fire_protection_service`, which Overture's taxonomy treats as a home service next to extinguisher servicing. The scorecard counts one category, so a station filed wrongly scores exactly like one that is absent, and none of its strata can tell the two apart. Anything that selects fire stations from Overture by category, such as a "fire stations" map layer or a coverage analysis, misses both kinds; a search by name may still find a mislabelled one. The fixes differ: a mislabelled station needs its category corrected in the source listing, and a missing one needs adding. On tribal land, after that correction, roughly one tract in five with a fire station still has no record of it at all.
 
 ## A caveat we are obliged to raise
 
@@ -177,8 +192,7 @@ The recommendation follows directly: **do not target open-map improvement on com
 vulnerability scores.** They will send effort to cities that already have good data.
 
 Target instead on facility-class gaps within rural and tribal areas. This is an unusually
-tractable remedy. The missing records are 542 fire stations whose locations are already public
-in the USGS National Map — this is a reconciliation task against an authoritative open dataset,
+tractable remedy. The gap is 542 stations (net) whose locations are already public in the USGS National Map; closing it means adding some and recategorising others — this is a reconciliation task against an authoritative open dataset,
 not a survey. It does require care rather than a bulk import: tribal sovereignty over data about
 tribal land is a real consideration, conflation against existing OSM features needs review, and
 some stations may be seasonal or volunteer-staffed in ways a point record does not capture. But
@@ -189,9 +203,4 @@ reporting alongside the composite score in future bias scorecards.
 
 ---
 
-*Reproducible from the challenge data alone. Fire-station counts are raw USGS National Map
-structures against Overture places with `categories.primary = fire_department`, assigned to
-tracts by point-in-polygon, each feature assigned exactly once. Tribal status is `tribal_any`
-from the challenge's own tribal stratum table. Query in `sql/13_bias_discovery.sql` (headline
-figures) and `sql/14_bias_named_tracts.sql` (the named-tract table); full method in
-`DOCUMENTATION.md`. Code: https://github.com/ambarachristian/bias-bounty-repo*
+*Data availability. Every figure was computed from the challenge data as published before 25 September 2026, when the organisers removed the TIGER, Microsoft, HIFLD and CBP layers from every region; the mislabel check uses only layers that are still published. Fire-station counts are points from the challenge's `hifld-fire-stations` layer (USGS National Map structures) against Overture places with `categories.primary = fire_department`, assigned to tracts by point-in-polygon. Tribal status is `tribal_any` from the challenge's tribal stratum table. The fire-station tables come from `sql/13_bias_discovery.sql` (headline and per-region figures) and `sql/14_bias_named_tracts.sql` (named tracts) at tag `v1.0-public0`; the mislabel check is `scripts/tract_mislabel_check.py`, with its output in `results/mislabel_check.md` and `results/mislabel_tracts.csv`. The invisible tracts can still be checked today: they are the rows of `submissions/submission.csv` with `poi_defined_fire = TRUE` and `poi_gap_fire = 1`, joined to the tribal stratum table, which is still published. Full method in DOCUMENTATION.md. Code: https://github.com/ambarachristian/bias-bounty-repo*
